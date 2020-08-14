@@ -26,7 +26,7 @@ clc
 % xx,yy: x & y grid;    omg: vorticity; 
 % xfil,yfil,omgfil: vorticity thresholded data;
 % Gamma_v: circulation (omgfil*dx*dy)
-load('example_airfoil.mat','xx','yy','omg','xfil','yfil','Gamma_v')  
+load('Data/example_airfoil.mat','xx','yy','omg','xfil','yfil','Gamma_v')  
 figure(1), clf, hold all, axis off
 ax1 = axes;
 contour(xx,yy,omg,linspace(-20,20),'linewidth',2)
